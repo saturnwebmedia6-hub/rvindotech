@@ -31,23 +31,18 @@ li.nav-item {
     border-radius: 0px;
   }
 }
-<<<<<<< HEAD
+
 .about {
     display: flex;
     gap: 30px;
     margin-top: 40px;
     align-items: center;
-=======
+}
 /* breadcrumb */
 .breadcrumb-section {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-<<<<<<< HEAD
               url(../images/breadcrum-image.jpg);
    background-position: center;
    background-repeat: no-repeat;
-=======
-              url(../images/breadcrum-image.jpg) center/cover no-repeat;
- background-position: center;
->>>>>>> 365c44a5b7bc0f4f8ac553aacf843c3798db3720
->>>>>>> 36ad6715310c8dec1e6ae887d1db789ffd240f53
+            
 }
