@@ -3,7 +3,6 @@
     padding: 0px;
     margin: 0px;
 }
-
 /* Navigation */
 .nav-item .nav-link{
     font-weight: 500;
@@ -31,13 +30,6 @@ li.nav-item {
     border-radius: 0px;
   }
 }
-
-.about {
-    display: flex;
-    gap: 30px;
-    margin-top: 40px;
-    align-items: center;
-}
 /* breadcrumb */
 .breadcrumb-section {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -45,4 +37,10 @@ li.nav-item {
    background-position: center;
    background-repeat: no-repeat;
             
+}
+.about {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
 }
