@@ -27,3 +27,9 @@
     border-radius: 0px;
   }
 }
+.about {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
+}
