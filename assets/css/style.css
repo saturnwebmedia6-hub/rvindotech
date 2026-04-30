@@ -3,7 +3,6 @@
     padding: 0px;
     margin: 0px;
 }
-
 /* Navigation */
 .nav-item .nav-link{
     font-weight: 500;
@@ -31,14 +30,25 @@ li.nav-item {
     border-radius: 0px;
   }
 }
+<<<<<<< HEAD
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
+=======
+/* breadcrumb */
+.breadcrumb-section {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url(../images/breadcrum-image.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+            
+>>>>>>> dcdcae839eab2ac0f2caa384ef506b11c971ef86
 }
 .about {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     justify-content: space-between;
     gap: 40px;
     margin-top: 50px;
@@ -243,6 +253,8 @@ li.nav-item {
               url(../images/breadcrum-image.jpg) center/cover no-repeat;
  background-position: center;
 >>>>>>> 365c44a5b7bc0f4f8ac553aacf843c3798db3720
+=======
+>>>>>>> dcdcae839eab2ac0f2caa384ef506b11c971ef86
 }
 
 
