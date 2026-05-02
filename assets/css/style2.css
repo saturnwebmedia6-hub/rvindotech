@@ -111,17 +111,22 @@ html, body {
 
 /* CALL BOX */
 .services-add{
-  background: #5359cd;
-  color: #fff;
-  padding: 20px;
-  border-radius: 0px;
-  margin-top: 20px;
+  background: #f8f9fa;
+    background-position: center;
+    color: #000000;
+    padding: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
+
 }
 
 .services-add a{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    background: #5359cd;
+    padding: 7px 11px;
+    border-radius: 2px;
 }
 
 /* CHECK LIST */
