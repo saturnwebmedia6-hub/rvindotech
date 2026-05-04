@@ -1,5 +1,25 @@
 html, body {
   overflow-x: hidden;
+
+}
+h2{
+  font-family: 'Lucida Sans',  sans-serif;
+  font-size: 25px;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lucida Sans',  sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+p{
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.68;
+}
+li, a{
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.68;
+
 }
 /* dropdown */
 /* NAV LINK */
@@ -79,7 +99,7 @@ html, body {
 /* IMAGE */
 .services-img img{
   width: 100%;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 /* ===== SIDEBAR ===== */
@@ -114,12 +134,14 @@ html, body {
   background: #f8f9fa;
     background-position: center;
     color: #000000;
-    padding: 20px;
+    padding: 26px;
     border-radius: 0px;
     margin-top: 20px;
 
 }
-
+.services-add h4{
+  font-size: 1.4rem;
+}
 .services-add a{
     color: #ffffff;
     text-decoration: none;
@@ -127,6 +149,17 @@ html, body {
     background: #5359cd;
     padding: 7px 11px;
     border-radius: 2px;
+}
+.service-section p{
+  font-family: 'Public Sans', sans-serif;
+  color: #4d5765;
+  line-height: 1.68;
+}
+.service-section li, a{
+    font-family: 'Public Sans', sans-serif;
+    color: #4d5765;
+    line-height: 1.68;
+
 }
 
 /* CHECK LIST */
