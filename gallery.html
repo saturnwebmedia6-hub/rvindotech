@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | R V Indotech</title>
+    <title>Gallery | R V Indotech</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/Fevicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<header>
+<header class="container-fluid">
 <nav class="navbar navbar-expand-lg">
   <div class="container">
     <!-- Logo -->
@@ -29,31 +29,30 @@
       <ul class="navbar-nav ">
 
         <li class="nav-item">
-          <a class="nav-link " href="#">HOME</a>
+          <a class="nav-link " href="index.html">HOME</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="#">ABOUT US</a>
+          <a class="nav-link " href="about.html">ABOUT US</a>
         </li>
+<!-- dropdown items -->
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle custom-drop" href="#" role="button" data-bs-toggle="dropdown">
+    PRODUCTS & SERVICES
+     </a>
+  <ul class="dropdown-menu custom-dropdown">
+    <li><a class="dropdown-item" href="machining.html">Machining</a></li>
+    <li><a class="dropdown-item" href="forging.html">Forging</a></li>
+    <li><a class="dropdown-item" href="casting.html">Casting</a></li>
+    <li><a class="dropdown-item" href="plastic-molding-parts.html">Plastic Molding Parts</a></li>
+    <li><a class="dropdown-item" href="sheet-metal-forming-and-fabrication.html">
+      Sheet Metal Forming & Fabrication
+    </a></li>
+  </ul>
+</li>   
+        <li class="nav-item"><a class="nav-link " href="contact-us.html">CONTACT US</a></li>
 
-       <li class="nav-item dropdown">
-          <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-           PRODUCTS & SERVICES
-          </a>
-          <ul class="dropdown-menu" >
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      
-        <li class="nav-item">
-          <a class="nav-link " href="#">CONTACT US</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="#">GALLERY</a>
-        </li>
+        <li class="nav-item"><a class="nav-link " href="gallery.html">GALLERY</a></li>
       </ul>
     </div>
 
@@ -68,7 +67,7 @@
                <div class="col-lg-12">
                   <div>
                      <div>
-                        <h1 class="breadcrumb-title" style="font-size: 35px;">Contact Us</h1>
+                        <h1 class="breadcrumb-title" style="font-size: 35px;">Gallery</h1>
                      </div>
                      <div>
                         <div>
@@ -78,7 +77,7 @@
                                  <path d="M4.47698 6.00058L0.352151 10.1253L1.53065 11.3038L6.83398 6.00058L1.53065 0.697266L0.352151 1.87577L4.47698 6.00058Z" fill="#F5F6F7">
                               </svg>
                            </span>
-                           <i>Contact Us</i>
+                           <i>Gallery</i>
                         </div>
                      </div>
                   </div>
@@ -91,234 +90,133 @@
  
 
 
-    <!-----slider 1---->
-      <div class="container my-5">
-        <h3 class="mb-2 t-color">OUR MACHINED PARTS</h3>
-        <p class="text-muted mb-4">We Manufacturing All Types Of Machined Parts</p>
+   <!-----slider 1---->
+<div class="container mt-5 mb-5">
+  <h3 class="mb-2 t-color">OUR MACHINED PARTS</h3>
+  <p class="text-muted mb-4">We Manufacturing All Types Of Machined Parts</p>
 
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
+  <div class="swiper swiper1 mb-5">
+    <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Machining-Part-1.jpg" class="slider-img">
-            </div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Machining-Part-1.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Machining-Part-2-1.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Machining-Part-3-1.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Machining-Part-4.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Machining-Part-5.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Machining-Part-6.jpg" class="slider-img"></div>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Machining-Part-2-1.jpg" class="slider-img">
-            </div>
+    </div>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Machining-Part-3-1.jpg" class="slider-img">
-            </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<!-----slider 1 end ---->
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Machining-Part-4.jpg" class="slider-img">
-            </div>
+<hr>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Machining-Part-5.jpg" class="slider-img">
-            </div>
+<!-----slider 2---->
+<div class="container mt-5 mb-5">
+  <h3 class="mb-2 t-color">OUR CASTING PARTS</h3>
+  <p class="text-muted mb-5">We Manufacturing All Types Of Casting Parts</p>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Machining-Part-6.jpg" class="slider-img">
-            </div>
-          </div>
+  <div class="swiper swiper2 mb-5">
+    <div class="swiper-wrapper">
 
-            <!-- arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      <!-----slider 1 end ---->
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-1.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-2.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-3.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-4.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-5.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-6.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-7.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-8.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Casting-Parts-9.jpg" class="slider-img"></div>
 
-      <hr>
+    </div>
 
-      <!-----slider 2---->
-      <div class="container my-4">
-        <h3 class="mb-2 t-color ">OUR CASTING PARTS</h3>
-        <p class="text-muted mb-5">We Manufacturing All Types Of Casting Parts</p>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<!-----slider 2 end ---->
 
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
+<hr>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-1.jpg" class="slider-img">
-            </div>
+<!-----slider 3---->
+<div class="container mt-5 mb-5">
+  <h3 class="mb-2 t-color">OUR FORGING PARTS</h3>
+  <p class="text-muted mb-5">We Manufacturing All Types Of Forging Parts</p>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-2.jpg" class="slider-img">
-            </div>
+  <div class="swiper swiper3 mb-5">
+    <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-3.jpg" class="slider-img">
-            </div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Forging-Parts-1.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Forging-Parts-2.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Forging-Parts-3.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Forging-Parts-4.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Forging-Parts-5.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Forging-Parts-6.jpg" class="slider-img"></div>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-4.jpg" class="slider-img">
-            </div>
+    </div>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-5.jpg" class="slider-img">
-            </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<!-----slider 3 end ---->
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-6.jpg" class="slider-img">
-            </div>
+<hr>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-7.jpg" class="slider-img">
-            </div>
+<!-----slider 4---->
+<div class="container mt-5 mb-5">
+  <h3 class="mb-2 t-color">OUR PLASTIC MOULDING PARTS</h3>
+  <p class="text-muted mb-5">We Manufacturing All Types Of Plastic Molding Parts</p>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-8.jpg" class="slider-img">
-            </div>
+  <div class="swiper swiper4 mb-5">
+    <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Casting-Parts-9.jpg" class="slider-img">
-            </div>
-          </div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Plastic-Moulding-Parts-1.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Plastic-Moulding-Parts-2.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Plastic-Moulding-Parts-3.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Plastic-Moulding-Parts-4.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Plastic-Moulding-Parts-5.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Plastic-Moulding-Parts-6.jpg" class="slider-img"></div>
+      <div class="swiper-slide"><img src="assets/images/img-gallery/Plastic-Moulding-Parts-7.jpg" class="slider-img"></div>
 
-            <!-- arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      <!-----slider 2 end ---->
+    </div>
 
-        <hr>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<!-----slider 4 end ---->
 
-      <!-----slider 3---->
-      <div class="container my-4 mt-3">
-        <h3 class="mb-2 t-color ">OUR FORGING PARTS</h3>
-        <p class="text-muted mb-5">We Manufacturing All Types Of Forging Parts</p>
+<hr>
 
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
+<!-----slider 5---->
+<div class="container mt-5 mb-5">
+  <h3 class="mb-2 t-color">SHEET METAL FORMING AND FABRICATION PARTS</h3>
+  <p class="text-muted mb-5">We Manufacturing All Types Of Sheet Metal Parts</p>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Forging-Parts-1.jpg" class="slider-img">
-            </div>
+  <div class="swiper swiper5 mb-5">
+    <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Forging-Parts-2.jpg" class="slider-img">
-            </div>
+      <div class="swiper-slide border"><img src="assets/images/img-gallery/Sheet-Metal-Parts-1.jpg" class="slider-img"></div>
+      <div class="swiper-slide border"><img src="assets/images/img-gallery/Sheet-Metal-Parts-2.jpg" class="slider-img"></div>
+      <div class="swiper-slide border"><img src="assets/images/img-gallery/Sheet-Metal-Parts-3.jpg" class="slider-img"></div>
+      <div class="swiper-slide border"><img src="assets/images/img-gallery/Sheet-Metal-Parts-4.jpg" class="slider-img"></div>
+      <div class="swiper-slide border"><img src="assets/images/img-gallery/Sheet-Metal-Parts-5.jpg" class="slider-img"></div>
+      <div class="swiper-slide border"><img src="assets/images/img-gallery/Sheet-Metal-Parts-6.jpg" class="slider-img"></div>
+      <div class="swiper-slide border"><img src="assets/images/img-gallery/SHEET-METAL-FORMING-FABRICATION-1.jpg" class="slider-img"></div>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Forging-Parts-3.jpg" class="slider-img">
-            </div>
+    </div>
 
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Forging-Parts-4.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Forging-Parts-5.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Forging-Parts-6.jpg" class="slider-img">
-            </div>
-
-            
-            <!-- arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      <!-----slider 3 end ---->
-
-        <hr>
-
-
-      <!-----slider 4---->
-      <div class="container my-4 mt-3">
-        <h3 class="mb-2 t-color ">OUR PLASTIC MOULDING PARTS</h3>
-        <p class="text-muted mb-5">We Manufacturing All Types Of Plastic Molding Parts</p>
-
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Plastic-Moulding-Parts-1.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Plastic-Moulding-Parts-2.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Plastic-Moulding-Parts-3.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Plastic-Moulding-Parts-4.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Plastic-Moulding-Parts-5.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Plastic-Moulding-Parts-6.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Plastic-Moulding-Parts-7.jpg" class="slider-img">
-            </div>
-
-            
-            <!-- arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      <!-----slider 4 end ---->
-
-        <hr>
-
-      <!-----slider 5---->
-      <div class="container my-4 mt-3">
-        <h3 class="mb-2 t-color ">SHEET METAL FORMING AND FABRICATION PARTS</h3>
-        <p class="text-muted mb-5">We Manufacturing All Types Of Sheet metal Forming And Fabrication Parts</p>
-
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Sheet-Metal-Parts-1.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Sheet-Metal-Parts-2.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Sheet-Metal-Parts-3.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Sheet-Metal-Parts-4.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Sheet-Metal-Parts-5.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/Sheet-Metal-Parts-6.jpg" class="slider-img">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/images/img-gallery/SHEET-METAL-FORMING-FABRICATION-1.jpg" class="slider-img">
-            </div>
-
-            
-            <!-- arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      <!-----slider 5 end ---->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<!-----slider 5 end ---->
         
 
 
@@ -346,14 +244,13 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 <script>
-var swiper = new Swiper(".mySwiper", {
+const options = {
   slidesPerView: 3,
   spaceBetween: 20,
-  slidesPerGroup: 1,
   loop: true,
 
   autoplay: {
-    delay: 2000,              // 2 sec la slide hoil
+    delay: 2000,
     disableOnInteraction: false
   },
 
@@ -367,7 +264,13 @@ var swiper = new Swiper(".mySwiper", {
     768: { slidesPerView: 2 },
     1024: { slidesPerView: 3 }
   }
-});
+};
+
+new Swiper(".swiper1", options);
+new Swiper(".swiper2", options);
+new Swiper(".swiper3", options);
+new Swiper(".swiper4", options);
+new Swiper(".swiper5", options);
 </script>
 
 
